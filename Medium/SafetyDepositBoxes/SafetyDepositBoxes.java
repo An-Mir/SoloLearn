@@ -1,7 +1,6 @@
 package Easy.SafetyDepositBoxes;
 
 import java.util.Scanner;
-
 import static java.util.Arrays.asList;
 
 public class SafetyDepositBoxes {
@@ -14,7 +13,7 @@ public class SafetyDepositBoxes {
         input.close();
 
         time = 5 + 5 * asList(words.split(",")).indexOf(item);
-
+        //returning List of items (spliting them with ",") and finding item index in List
         System.out.println(time);
     }
 }
