@@ -20,5 +20,5 @@ Declaration of Independence
 ```
 20
 ```
-### Explanation
+## Explanation
 It will take you 20 minutes before you drill into the 4th box, which contains your item, the Declaration of Independence.
