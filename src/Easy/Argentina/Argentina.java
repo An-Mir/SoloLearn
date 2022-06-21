@@ -1,4 +1,4 @@
-package Argentina;
+package Easy.Argentina;
 
 import java.util.Scanner;
 

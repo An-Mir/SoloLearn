@@ -1,4 +1,4 @@
-package SkeeBall;
+package Easy.SkeeBall;
 
 import java.util.Scanner;
 

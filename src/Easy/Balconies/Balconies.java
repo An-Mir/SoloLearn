@@ -1,4 +1,4 @@
-package Balconies;
+package Easy.Balconies;
 
 import java.util.Scanner;
 

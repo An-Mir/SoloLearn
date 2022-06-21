@@ -1,4 +1,4 @@
-package SafetyDepositBoxes;
+package Easy.SafetyDepositBoxes;
 
 import java.util.Scanner;
 

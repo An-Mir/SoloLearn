@@ -1,4 +1,4 @@
-package PigLatin;
+package Medium.PigLatin;
 
 import java.util.Scanner;
 
