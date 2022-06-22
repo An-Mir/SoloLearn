@@ -7,7 +7,9 @@ public class Popsicles {
         Scanner input = new Scanner(System.in);
         int siblings = input.nextInt();
         int popsicles = input.nextInt();
+        input.close();
 
+        //Determining can we divide all popsicles using % (Modulus) operator
         if (popsicles % siblings == 0) {
             System.out.println("give away");
         } else {

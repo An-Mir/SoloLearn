@@ -12,8 +12,9 @@ public class SafetyDepositBoxes {
         String item = input.nextLine();
         input.close();
 
-        time = 5 + 5 * asList(words.split(",")).indexOf(item);
         //returning List of items (spliting them with ",") and finding item index in List
+        time = 5 + 5 * asList(words.split(",")).indexOf(item);
+
         System.out.println(time);
     }
 }

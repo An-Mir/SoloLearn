@@ -6,10 +6,12 @@ public class Argentina {
 
     static int newPriceInDollars;
 
+    // Exchanging Pesos into Dollars
     static int getDollars (int pesos) {
         return newPriceInDollars = (int) (pesos * 0.02);
     }
 
+    // Method to compare prices in Dollars and in Pesos
     static void compare(int getDollars, int dollars) {
         if (getDollars < dollars) {
             System.out.println("Pesos");
@@ -23,6 +25,7 @@ public class Argentina {
         Scanner input = new Scanner(System.in);
         int pesos = input.nextInt();
         int dollars = input.nextInt();
+        input.close();
 
         compare(getDollars(pesos), dollars);
 
