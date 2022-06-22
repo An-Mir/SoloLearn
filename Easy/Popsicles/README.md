@@ -13,7 +13,8 @@ A string that says 'give away' if you are giving them away, or 'eat them yoursel
 
 ### Sample Input
 ```
-3 9
+3
+9
 ```
 ### Sample Output
 ```
