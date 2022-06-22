@@ -1,2 +1,2 @@
 # SoloLearn
-SoloLearnApp Exercises
+SoloLearnApp Exercises using Java
