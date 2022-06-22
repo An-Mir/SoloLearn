@@ -20,3 +20,5 @@ A string that says whether apartment A or apartment B has a larger balcony.
 ```
 Apartment A
 ```
+### Explanation:
+Since the area of apartment A's balcony is 25 and the area of apartment B's balcony is 20, Apartment A is the correct answer.
