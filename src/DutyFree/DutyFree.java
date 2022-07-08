@@ -17,22 +17,13 @@ public class DutyFree {
 
         if ((firstPrice * 1.1) >= 20) {
             System.out.println("Back to the store");
-            if ((secondPrice * 1.1) >= 20) {
-                System.out.println("Back to the store");
-                if ((thirdPrice * 1.1) >= 20) {
-                    System.out.println("Back to the store");
-                    if ((fourthPrice * 1.1) >= 20) {
-                        System.out.println("Back to the store");
-                    } else {
-                        System.out.println("On to the terminal");
-                    }
-                } else {
-                    System.out.println("On to the terminal");
-                }
-            } else {
-                System.out.println("On to the terminal");
-            }
-        } else {
+        }else if ((secondPrice * 1.1) >= 20) {
+            System.out.println("Back to the store");
+        }else if ((thirdPrice * 1.1) >= 20) {
+            System.out.println("Back to the store");
+        }else if ((fourthPrice * 1.1) >= 20) {
+            System.out.println("Back to the store");
+        }else{
             System.out.println("On to the terminal");
         }
     }
